@@ -31,14 +31,14 @@
 
                 <?php if(isset($apercu)) :?>
                     <p><?=$apercu?></p>
-                    <div>
-                        <img src="Public/IMG/img.png" alt="Ceci est une image">
-                    </div>
                 <?php endif ?>
 
             </fieldset>
             <p> Pas de compte ? <a href="index.php?location=signUp">Inscrivez-vous</a> </p>
         </form>
+        <div class="image">
+                <img src="Public/IMG/image.jpeg" alt="Ceci est une image">
+            </div>
     </div>
 
 

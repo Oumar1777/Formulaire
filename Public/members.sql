@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Hôte : localhost:3306
--- Généré le : ven. 10 fév. 2023 à 00:18
+-- Généré le : jeu. 16 fév. 2023 à 22:03
 -- Version du serveur :  10.5.18-MariaDB-0+deb11u1
 -- Version de PHP : 7.4.33
 
@@ -39,7 +39,8 @@ CREATE TABLE `members` (
 --
 
 INSERT INTO `members` (`id`, `username`, `mail`, `password`) VALUES
-(1, 'BAH', 'bah@test.com', '$2y$10$eHomNUj7fOqIE2GyLTKg3.kLLsikod8c0Fl/ZWlDPzZ9VbmTCXZJe');
+(1, 'BAH', 'bah@test.com', '$2y$10$eHomNUj7fOqIE2GyLTKg3.kLLsikod8c0Fl/ZWlDPzZ9VbmTCXZJe'),
+(2, 'S. Oumar', 'soumar@gmail.com', '$2y$10$5lwK8m5GDznb9TRuDCWvsO5d0AvfwTSYHD2QPLFQ3L1590mcT8GEi');
 
 --
 -- Index pour les tables déchargées
@@ -60,7 +61,7 @@ ALTER TABLE `members`
 -- AUTO_INCREMENT pour la table `members`
 --
 ALTER TABLE `members`
-  MODIFY `id` int(10) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=2;
+  MODIFY `id` int(10) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=3;
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;

@@ -27,6 +27,8 @@ input[type=submit], input[type=reset]{
     cursor: pointer;
 }
 
-img{
+.image{
+    position: relative;
     float: right;
+    width: 35%;
 }

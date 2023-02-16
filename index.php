@@ -20,6 +20,9 @@ if(isset($_GET['location']))
         case $_GET['location'] == "signUpCheck":
             signUpCheck();
             break;
+        
+        default:
+            loginPage();
     }
 }
 else
